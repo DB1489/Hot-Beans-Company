@@ -1,0 +1,158 @@
+body {
+	background-color: #111;
+	border-style:dashed;
+	border-color:orange;
+	font-family: 'Zen Loop', cursive;
+}
+
+h1 {
+	color:orange; 
+	text-align:center;
+	font-family: 'Zen Loop', cursive;
+	font-size:3.5em;
+} 
+
+.a {
+	padding:0% 45.7%;
+	height:180px;
+	width:200px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  border-top:dashed;
+  border-top:dashed;
+  border-bottom:dashed;
+  border-color:orange;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 140px;
+  text-decoration: none;
+  font-size:2em;
+  
+}
+
+nav ul li a:hover {
+  background-color: #333;
+}
+
+p {
+	Font-size:2em;
+	color:yellow;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+h2 {
+	text-align:center;
+	font-size:2.5em;
+	color:white;
+}
+
+h3{
+	text-align:center;
+	font-size:2.5em;
+	color:orange;
+}
+ 
+ /* START OF HOW TO CONTACT */ 
+
+ /* fORM */  
+ 
+.container1 {
+  padding: 10px 0px;
+  height:auto;
+  background-color: black;
+  width:100%;
+  color:white;
+ 
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 20px;
+  margin: 15px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 435px;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: yellow;
+  border:none;
+  font-size:25px;
+  font-family: 'Zen Loop', cursive;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+  color:orange;
+}
+
+/* END OF CONTACT PAGE */
+
+
+/* START OF VIDEO PAGE */
+
+/* DIV VIDEO */
+.container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color:#111;
+}
+
+.container1 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color:#111;
+
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none
+}
+
+/* END OF VIDEO PAGE */
+
+/* START OF THE FAQ PAGE */
+
+Li {
+	Font-size:2em;
+	color:yellow;
+	text-align:center;
+}
+footer {
+	Color:orange;
+	text-align:center;
+	font-size:2em;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-top:dashed;
+	border-color:orange;
+}
